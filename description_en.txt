@@ -1,0 +1,24 @@
+TypMaths lets you write mathematical equations in Typst markup directly inside LibreOffice.
+Click the TypMaths toolbar button, enter your equation (for example: x = y^2 / z), choose a
+font size, and the equation is rendered as a crisp, scalable SVG vector image inserted at the
+cursor position in Writer documents or centered on slides in Impress/Draw. Select an equation
+image you created earlier and click the button again to edit its code in place.
+
+Keyboard tip: press Ctrl+Enter anywhere in the dialog to Insert/Update the
+equation (same as clicking the button); Esc cancels.
+
+Keyboard shortcut:
+The extension also provides the macro "typmaths", which performs exactly the same action and
+can be assigned a custom keyboard shortcut:
+
+1. Open Tools > Customize... and go to the Keyboard tab.
+2. In the Category list choose "LibreOffice Macros".
+3. Browse to your installation (user/share), then TypMaths > TypMaths.py > typmaths.
+4. Pick a key combination in the "Shortcut keys" list and click "Modify".
+
+The macro can also be run directly from Tools > Macros.
+
+Requires the Typst CLI ("typst") to be available on the system PATH.
+
+Author: Yong Wang
+Version: 1.2.1
